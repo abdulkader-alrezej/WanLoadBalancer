@@ -62,6 +62,34 @@ They are separate programs (mere aggregation) and are not derived from GPL code.
 
 ---
 
+## Firmware Installation Files for End Users
+
+## WANLB Packages (v82)
+
+| Target | Package | Direct Download |
+|---|---|---|
+| MikroTik **hAP ac²** (256MiB) — profiles: LG-7200GAPD / KT-708 / KT-901 | `WANLB_256MiB_hAPac2_LG-7200GAPD_KT-708_KT-901__v82.zip` | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/WANLB_256MiB_hAPac2_LG-7200GAPD_KT-708_KT-901__v82.zip) |
+| MikroTik **RB5009** | `WANLB_RB5009__v82.zip` | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/WANLB_RB5009__v82.zip) |
+| MikroTik **RB750 / RB760 (hEX S)** — profile: LG920 | `WANLB_RB750_760_LG920__v82.zip` | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/WANLB_RB750_760_LG920__v82.zip) |
+
+---
+
+### Verify file integrity (optional)
+
+Calculate the SHA-256 locally after download:
+
+```bash
+# hAP ac² (256MiB)
+sha256sum WANLB_256MiB_hAPac2_LG-7200GAPD_KT-708_KT-901__v82.zip
+
+# RB5009
+sha256sum WANLB_RB5009__v82.zip
+
+# RB750 / RB760 (hEX S)
+sha256sum WANLB_RB750_760_LG920__v82.zip
+```
+
+
 ## Firmware Downloads
 
 | MikroTik **hAP ac²** (RB952Ui-5ac2nD-TC) | ipq40xx | sysupgrade (SquashFS) | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/openwrt-ipq40xx-mikrotik-mikrotik_hap-ac2-squashfs-sysupgrade.bin) |
@@ -87,3 +115,4 @@ sha256sum openwrt-mvebu-cortexa72-mikrotik_rb5009-squashfs-sysupgrade.bin
 
 # RB760iGS (hEX S)
 sha256sum openwrt-ramips-mt7621-mikrotik_routerboard-760igs-squashfs-sysupgrade.bin
+```
