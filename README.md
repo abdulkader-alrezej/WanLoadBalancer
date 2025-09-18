@@ -34,6 +34,14 @@ They are separate programs (mere aggregation) and are not derived from GPL code.
 2. Build host: Ubuntu 22.04.4 LTS jammy x86_64
 3. Clone or unpack an OpenWrt buildroot matching the intended device and enter it, e.g.:
    ```bash
+   
+   sudo apt upgrade
+   sudo apt update
+   .
+   sudo apt install build-essential clang flex bison g++ gawk \
+   gcc-multilib g++-multilib gettext git libncurses5-dev libssl-dev \
+   python3-setuptools rsync swig unzip zlib1g-dev file wget qemu-utils
+   .
    git clone https://github.com/openwrt/openwrt.git openwrt
    cd openwrt
    git pull
