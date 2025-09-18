@@ -60,4 +60,30 @@ They are separate programs (mere aggregation) and are not derived from GPL code.
    ./scripts/feeds update -a
    ./scripts/feeds install -a
 
+---
 
+## Firmware Downloads
+
+| MikroTik **hAP ac²** (RB952Ui-5ac2nD-TC) | ipq40xx | sysupgrade (SquashFS) | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/openwrt-ipq40xx-mikrotik-mikrotik_hap-ac2-squashfs-sysupgrade.bin) |
+
+
+| MikroTik **RB5009** | mvebu/cortexa72 | sysupgrade (SquashFS) | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/openwrt-mvebu-cortexa72-mikrotik_rb5009-squashfs-sysupgrade.bin) |
+
+
+| MikroTik **RB760iGS (hEX S)** | ramips/mt7621 | sysupgrade (SquashFS) | [⬇️ Download](https://raw.githubusercontent.com/abdulkader-alrezej/WanLoadBalancer/main/openwrt-ramips-mt7621-mikrotik_routerboard-760igs-squashfs-sysupgrade.bin) |
+
+---
+
+### Verify file integrity (optional)
+
+Calculate the SHA-256 locally after download:
+
+```bash
+# hAP ac²
+sha256sum openwrt-ipq40xx-mikrotik-mikrotik_hap-ac2-squashfs-sysupgrade.bin
+
+# RB5009
+sha256sum openwrt-mvebu-cortexa72-mikrotik_rb5009-squashfs-sysupgrade.bin
+
+# RB760iGS (hEX S)
+sha256sum openwrt-ramips-mt7621-mikrotik_routerboard-760igs-squashfs-sysupgrade.bin
