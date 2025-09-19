@@ -8,7 +8,7 @@ This repository provides the **Complete Corresponding Source (CCS)** for the Ope
 - **rb5009**
 - **hap-ac2**
 
-⚠️ Based on OpenWrt (GPLv2). Not affiliated with or endorsed by the OpenWrt project.”
+⚠️ Based on OpenWrt (GPLv2). Not affiliated with or endorsed by the OpenWrt project.
 
 The goal is to comply with free/open-source licenses (especially **GPLv2**) and to enable anyone to **reproduce the same images** from source.
 
