@@ -12,6 +12,14 @@ This repository provides the **Complete Corresponding Source (CCS)** for the Ope
 
 The goal is to comply with free/open-source licenses (especially **GPLv2**) and to enable anyone to **reproduce the same images** from source.
 
+---
+
+## 💬 Join our Facebook Group
+Have questions or want to share your experience with others?  
+👉 [Join the Facebook Group](https://www.facebook.com/share/g/177fzHmNNr)
+
+---
+
 ## What is included (per target)
 
 - mwan3
