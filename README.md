@@ -13,6 +13,13 @@ This repository provides the **Complete Corresponding Source (CCS)** for the Ope
 The goal is to comply with free/open-source licenses (especially **GPLv2**) and to enable anyone to **reproduce the same images** from source.
 
 ## What is included (per target)
+
+- mwan3
+- irqbalance
+- unzip
+- micropython-mbedtls
+- micropython-lib
+
 Inside each target folder you will find:
 
 - `configs/diffconfig` — the build configuration that matches the shipped image.
@@ -56,7 +63,7 @@ They are separate programs (mere aggregation) and are not derived from GPL code.
    Sub-target	 >  Marvell Armada 7k/8k (ARM64)
    Target Profile > MikroTik RB5009
    ./scripts/feeds update -a
-   ./scripts/feeds install mwan3 irqbalance micropython-mbedtls micropython-lib
+   ./scripts/feeds install mwan3 irqbalance unzip micropython-mbedtls micropython-lib
    ./scripts/feeds update -a
    ./scripts/feeds install -a
 
